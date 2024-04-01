@@ -1,0 +1,10 @@
+﻿  cube.cpp
+  cubeNoOOP.cpp
+C:\Users\Administrator\source\repos\CubeCreation\cubeNoOOP.cpp(59,66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Administrator\source\repos\CubeCreation\cubeNoOOP.cpp(59,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Administrator\source\repos\CubeCreation\cubeNoOOP.cpp(59,52): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Administrator\source\repos\CubeCreation\cubeNoOOP.cpp(59,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  LINK : C:\Users\Administrator\source\repos\CubeCreation\x64\Debug\CubeCreation.exe not found or not built by the last incremental link; performing full link
+cubeNoOOP.obj : error LNK2005: SDL_main already defined in cube.obj
+C:\Users\Administrator\source\repos\CubeCreation\x64\Debug\CubeCreation.exe : fatal error LNK1169: one or more multiply defined symbols found
