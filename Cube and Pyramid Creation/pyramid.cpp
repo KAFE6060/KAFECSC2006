@@ -6,11 +6,10 @@
 
 
 std::vector<Point3D> points{
-    Point3D{ (-10.0f / 3) * 20,  (10.0f / 3) * 20, (-10.0f / 3) * 20 }, // Base point 1, further adjusted
-    Point3D{ (10.0f / 3) * 20,   (10.0f / 3) * 20, (-10.0f / 3) * 20 }, // Base point 2, further adjusted
-    Point3D{ (-10.0f / 3) * 20,  (10.0f / 3) * 20, (10.0f / 3) * 20  }, // Base point 3, further adjusted
-    Point3D{ (10.0f / 3) * 20,   (10.0f / 3) * 20, (10.0f / 3) * 20  }, // Base point 4, further adjusted
-    Point3D{ 0,                  (-10.0f / 3) * 20, 0                 }  // Apex point, further adjusted
+        Point3D{ -1, -1, -1 }, Point3D{ -1, -1, 1 },
+         Point3D{ 1,  -1, -1 }, Point3D{ -1,  1, -1 },
+         Point3D{ -1, 1, 1 }, Point3D{ 1,  -1, 1 },
+         Point3D{ 1,  1, -1 }, Point3D{ 1,  1, 1 }
 };
 
 
